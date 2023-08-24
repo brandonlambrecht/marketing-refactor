@@ -1,13 +1,16 @@
+/* Universal style to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets white background in body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style HTML elements with class header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Style for h1 within class header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Style for h1 within class header and seo */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+ 
+/* Style for nav within header class */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,30 @@ body {
     font-size: 20px;
 }
 
+/* Style for navigation lists within header class */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Style for listed items in navigation */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/* Style for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Style for all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Style for class hero */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +71,27 @@ p {
     background-position: center;
 }
 
+/* Float an element to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Float element to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Style for main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/* Style for classes in main section */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,16 +101,18 @@ p {
     color: #ffffff;
 }
 
+/* Style for images in main section */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Style for h2 in main section */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* Style for benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,17 +124,19 @@ p {
     background-color: #2589bd;
 }
 
+/* Style for elements within benefits class */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Style for h3 within benefits class */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Style for image within benefits class  */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -123,6 +144,7 @@ p {
 }
 
 
+/* Style for footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,6 +152,7 @@ p {
     text-align: center;
 }
 
+/* Style for h2 within footer class */
 .footer h2 {
     font-size: 20px;
 }
